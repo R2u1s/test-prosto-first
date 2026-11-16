@@ -1,0 +1,16 @@
+{
+    "name": "http-download-benchmark",
+    "version": "1.0.0",
+    "description": "CLI tool for sequential HTTP download speed benchmarking",
+    "type": "module",
+    "main": "index.js",
+    "bin": {
+      "benchmark": "./index.js"
+    },
+    "scripts": {
+      "start": "node index.js"
+    },
+    "engines": {
+      "node": ">=18.17.0"
+    }
+  }
